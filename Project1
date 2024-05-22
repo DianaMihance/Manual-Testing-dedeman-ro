@@ -7,9 +7,12 @@ Application under test: dedeman.ro
 Tools used: Jira, Zephyr Squad.
 Functional specifications:
 
-The below story (daca aveti mai multe scrieti stories) was created in Jira and describes the functional specifications of the "nume_modul" module, for which the final project is performed upon.
+The below stories (daca aveti mai multe scrieti stories) were created in Jira and describes the functional specifications of the "Comenzile mele" and "Favorite" modules, for which the final project is performed upon.
 
-inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier
+
+
+
+
 
 Here you can find the release that was created for this project:
 
@@ -24,12 +27,11 @@ The Test Plan is designed to describe all details of testing for all the modules
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here (inserati link catre documentul cu planul de testare)
 1.1.1. Roles asigned to the project and persons allocated
 
-(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)
 
-    Project manager
-    Product owner
-    Software developer
-    QA Engineer
+    Project manager: Iancu Irina
+    Product owner : Ionescu Vlad
+    Software developer : Pop Adela
+    QA Engineer : Mihance Diana
 
 1.1.2 Entry criteria defined
 
