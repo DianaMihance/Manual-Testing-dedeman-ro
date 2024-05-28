@@ -8,10 +8,22 @@ Tools used: Jira, Zephyr Squad.
 
 Functional specifications:
 
-The below stories were created in Jira and describe the functional specifications of the modules named  "Comenzile mele", "Favorite" , for which the final project is performed upon.
+The below stories were created in Jira and describe the functional specifications of the modules named: "Contul meu", "Comenzile mele", "Favorite" ,"Abonari", "Setari", "Categorii produse", Search bar", "Authentification" for which the final project is performed upon.
 
-TREBUIE PUSE POZE
+![stories](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/ff625825-4db1-4b7b-a1e6-50daaf1291ce)
 
+
+![authentification1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/1911062f-dab4-42c9-95da-d0bb97ca5d88)
+
+
+![authentification2](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/f9b2ee12-7517-43c9-bb3d-3acc0e90e176)
+
+
+![search bar 1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/81074e44-3721-4473-8735-0de3417cb2a9)
+
+
+
+![search bar 2](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/6ecac75c-e954-4219-a073-62ad8fcf8ab7)
 
 
 
@@ -23,11 +35,13 @@ Testing process
 TREBUIE PUSE POZE
 
 The test process was performed based on the standard test process as described below.
+
 1.1 Test planning
 
-The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
+The Test Plan is designed to describe all details of testing for all the modules from the application.
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here (inserati link catre documentul cu planul de testare)
+
 1.1.1. Roles asigned to the project and persons allocated
 
 
@@ -39,13 +53,32 @@ The plan identifies the items to be tested, the features to be tested, the types
 1.1.2 Entry criteria defined
 
 (enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)
+
+smoke test passed 
+testing environment is up and running
+
 1.1.3 Exit criteria defined
 
 (enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)
+
+90% of tests are passed
+no Critical issues have Open status
+update tests are 100% passed (update tests will not generate other new issues that impact the application)
+
 1.1.4 Test scope
 Tests in scope:
 
 (descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+
+The tests are ment to determine the good function of some parts of the application .
+
+Functionalities in scope: 
+uppdating the password, log in form, sorting the product list, add a product to favorite list, placing an order.
+
+
+I used functional testing, exploratory testing, positive and negative testing.
+
+
 Tests not in scope:
 
 Non-functional testing like stress, performance is beyond scope of this project.
@@ -54,6 +87,8 @@ Automation testing is beyond scope.
 
 
 (descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+
+
 1.1.5 Risks detected
 Project risks:
 
@@ -61,12 +96,16 @@ Project risks:
 Product risks:
 
 (enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)
+
+
 1.1.6 Evaluating entry criteria
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
+
 1.2 Test Monitoring and Control
 
 (inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
+
 1.3 Test Analysis
 The testing process will be executed based on the application requirements. (The requirements analysis has been done in order to implement the early testing test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review).
 
@@ -81,6 +120,7 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 The following elements are needed to be ready before the test execution phase begins:
 
 (inserati lista de elemente care sunt evaluate in etapa de implementare)
+
 1.6. Test Execution
 
 Test cases are executed on the created test Cycle summary: (inserati aici numele cycle-ului pe care l-ati creat)
@@ -90,6 +130,7 @@ Bugs have been created based on the failed tests. The complete bug reports can b
 The following is a summary of the bugs that have been found (inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
+
 
 1.7 Test Completion As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
