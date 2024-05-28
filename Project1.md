@@ -8,10 +8,22 @@ Tools used: Jira, Zephyr Squad.
 
 Functional specifications:
 
-The below stories were created in Jira and describe the functional specifications of the modules named  "Comenzile mele", "Favorite" , for which the final project is performed upon.
+The below stories were created in Jira and describe the functional specifications of the modules named: "Contul meu", "Comenzile mele", "Favorite" ,"Abonari", "Setari", "Categorii produse", Search bar", "Authentification" for which the final project is performed upon.
 
-TREBUIE PUSE POZE
+![stories](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/ff625825-4db1-4b7b-a1e6-50daaf1291ce)
 
+
+![authentification1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/1911062f-dab4-42c9-95da-d0bb97ca5d88)
+
+
+![authentification2](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/f9b2ee12-7517-43c9-bb3d-3acc0e90e176)
+
+
+![search bar 1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/81074e44-3721-4473-8735-0de3417cb2a9)
+
+
+
+![search bar 2](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/6ecac75c-e954-4219-a073-62ad8fcf8ab7)
 
 
 
@@ -23,9 +35,10 @@ Testing process
 TREBUIE PUSE POZE
 
 The test process was performed based on the standard test process as described below.
+
 1.1 Test planning
 
-The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
+The Test Plan is designed to describe all details of testing for all the modules from the application.
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here (inserati link catre documentul cu planul de testare)
 1.1.1. Roles asigned to the project and persons allocated
