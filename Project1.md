@@ -1,13 +1,14 @@
 # Testing Project for dedeman.ro
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
+The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
 
-Application under test: dedeman.ro
+## Application under test: dedeman.ro
 
 Tools used: Jira, Zephyr Squad.
+
 Functional specifications:
 
-The below stories (daca aveti mai multe scrieti stories) were created in Jira and describes the functional specifications of the "Comenzile mele" and "Favorite" modules, for which the final project is performed upon.
+The below stories were created in Jira and describe the functional specifications of the modules named  "Comenzile mele", "Favorite" , for which the final project is performed upon.
 
 TREBUIE PUSE POZE
 
@@ -46,6 +47,11 @@ Tests in scope:
 
 (descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
 Tests not in scope:
+
+Non-functional testing like stress, performance is beyond scope of this project.
+No QA support for mobile applications developed. Only web applications will be tested.
+Automation testing is beyond scope.
+
 
 (descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
 1.1.5 Risks detected
