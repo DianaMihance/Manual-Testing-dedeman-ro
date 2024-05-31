@@ -29,10 +29,8 @@ The below stories were created in Jira and describe the functional specification
 
 Here you can find the release that was created for this project:
 
-(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)
-Testing process
+![release](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/b18c3cba-75de-4f0e-87e4-b4c8e2beb708)
 
-TREBUIE PUSE POZE
 
 The test process was performed based on the standard test process as described below.
 
@@ -52,50 +50,80 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 1.1.2 Entry criteria defined
 
-(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)
+Testing can start when the following are fulfilled:
+ 
+ Implementation of the feature is done and reviewed
 
-smoke test passed 
-testing environment is up and running
+ A pull request is opened on the ticket
+ 
+ QA has all required info to test
+ 
+ Stable Pull request environment was created
+ 
+ Smoke test passed 
+
+ Testing environment is up and running
 
 1.1.3 Exit criteria defined
 
-(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)
+Testing can end when:
+
+All acceptance criteria are met for a story
+
+Defect is fixed and the change did not break something else
 
 90% of tests are passed
-no Critical issues have Open status
-update tests are 100% passed (update tests will not generate other new issues that impact the application)
+
+No Critical issues have Open status
+
+Update tests are 100% passed (update tests will not generate other new issues that impact the application)
 
 1.1.4 Test scope
-Tests in scope:
 
-(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+Tests in scope:
 
 The tests are ment to determine the good function of some parts of the application .
 
-Functionalities in scope: 
-uppdating the password, log in form, sorting the product list, add a product to favorite list, placing an order.
+Functional testing verifies that software features work as intended.
 
+Functionalities in scope: uppdating the password, log in form, sorting the product list, add a product to favorite list, placing an order.
 
-I used functional testing, exploratory testing, positive and negative testing.
+Functional testing, exploratory testing, positive and negative testing were used in this project.
 
+Only Web applications will be tested.
+
+Levels of testing:
+
+● Component testing
 
 Tests not in scope:
 
 Non-functional testing like stress, performance is beyond scope of this project.
-No QA support for mobile applications developed. Only web applications will be tested.
+No QA support for mobile applications developed.
 Automation testing is beyond scope.
 
 
-(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
-
-
 1.1.5 Risks detected
-Project risks:
 
-(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)
-Product risks:
+Risks and mitigation:
 
-(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)
+a) Risk: Features are implemented with delay
+
+Impact: Available testing time is reduced.
+
+Action: Testing prioritization. Get help with testing from developers.
+
+b) Risk: Unexpected PTOs / medical leave.
+
+Impact: Possible delay of the release.
+
+Action: Resources will be added to the testing team.
+
+c) Risk: Non-functional environments
+
+Impact: Available testing time is reduced. Possible delay of the release.
+
+Action: Test on local environment if possible.
 
 
 1.1.6 Evaluating entry criteria
@@ -104,44 +132,77 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 1.2 Test Monitoring and Control
 
-(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
+![test metrics](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/823a3dcf-1e2b-4316-b005-7e810ed525fa)
+
+There are 7 stories and 15 tests executed. 4 bugs were found during the process.
+
 
 1.3 Test Analysis
-The testing process will be executed based on the application requirements. (The requirements analysis has been done in order to implement the early testing test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review).
+
+The testing process will be executed based on the application requirements. 
 
 The following test conditions were found:
 
-(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)
+![teste 1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/efe04438-39cb-4209-bf2f-7ca5dca1484b)
+
+![teste 2](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/8fee7761-039f-4d8b-8891-fa27d565a83f)
+
+
+
 1.4 Test Design
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here (inserati linkul catre fisierul cu testele, in format pdf, word sau csv)
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. Here are some examples of test cases .
+
+![test case 1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/d921f967-ca96-41b8-b7d5-8395b7e6847b)
+
+![test case 2](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/4ca545aa-3edc-49a8-a8e2-40ecd540cd6b)
+
+![test case 3](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/e57651fa-83e9-419d-85c6-51bdbd46d577)
+
+![test case 4](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/2914630a-1a85-4c0a-bf30-4c4dcf8dd588)
+
+
 1.5 Test Implementation
 
 The following elements are needed to be ready before the test execution phase begins:
 
-(inserati lista de elemente care sunt evaluate in etapa de implementare)
+The web site functionalities to be tested are ready .
 
 1.6. Test Execution
 
-Test cases are executed on the created test Cycle summary: (inserati aici numele cycle-ului pe care l-ati creat)
+Test cases are executed on the created test Cycle summary: "Project one"
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: (inserati aici fisierul cu bug-urile pe care le-ati identificat)
+Bugs have been created based on the failed tests. The complete bug reports can be found here: 
 
-The following is a summary of the bugs that have been found (inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)
+![bug 1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/38a6d0f1-41c8-4ac2-b7b4-25a2ded4eb7b)
+
+![bug 2](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/81270584-e129-4699-921c-d42df60070e7)
+
+![bug 3](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/fd2ff5b1-7d00-45c5-aacd-451cf40eb20a)
+
+![bug 4](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/9cb0042a-509c-4423-87e2-5273d70e79ca)
+
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 
-1.7 Test Completion As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+1.7 Test Completion 
 
-The traceability matrix was generated and can be found here: (inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)
+As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+
+The traceability matrix was generated and can be found here: 
+
+![matricea](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/0e8396ad-30a2-4720-8a66-639fd9a7ceee)
+
 
 Test execution chart was generated and can be found below.
 
-(inserati aici raportul de executie generat din jira din sectiunea de dashboards)
+![dasboard nou](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/43a55cb4-df88-44b8-a420-bc8aabfe317a)
 
-The final report shows that a number (inserati numarul de teste) tests have failed of a total of (inserati numarul de teste)
+The final report shows that a number of 3 tests have failed of a total of 15 tests.
 
-A number of (inserati numarul de bug-uri) total bugs were found, from which the priority is: (inserati numarul de bug-uri) are high and (inserati numarul de bug-uri) are medium.
+A number of 4 total bugs were found, from which the priority is:1 is high and 3 are medium.
 
-(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)
+15 tests were created and executed so far . There would be more tests to be created because the project is more complex and there are still some functionalities that were not tested yet. The bugs that were found have a small impact on the product launch and they can be fixed easily.
+
+
