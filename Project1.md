@@ -6,7 +6,7 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 
 Tools used: Jira, Zephyr Squad.
 
-Functional specifications:
+### Functional specifications:
 
 The below stories were created in Jira and describe the functional specifications of the modules named: "Contul meu", "Comenzile mele", "Favorite" ,"Abonari", "Setari", "Categorii produse", Search bar", "Authentification" for which the final project is performed upon.
 
@@ -27,20 +27,20 @@ The below stories were created in Jira and describe the functional specification
 
 
 
-Here you can find the release that was created for this project:
+### Here you can find the release that was created for this project:
 
 ![release](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/b18c3cba-75de-4f0e-87e4-b4c8e2beb708)
 
 
 The test process was performed based on the standard test process as described below.
 
-1.1 Test planning
+### 1.1 Test planning
 
 The Test Plan is designed to describe all details of testing for all the modules from the application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here (inserati link catre documentul cu planul de testare)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. 
 
-1.1.1. Roles asigned to the project and persons allocated
+#### 1.1.1. Roles asigned to the project and persons allocated
 
 
     Project manager: Iancu Irina
@@ -48,7 +48,7 @@ The plan identifies the items to be tested, the features to be tested, the types
     Software developer : Pop Adela
     QA Engineer : Mihance Diana
 
-1.1.2 Entry criteria defined
+#### 1.1.2 Entry criteria defined
 
 Testing can start when the following are fulfilled:
  
@@ -64,7 +64,7 @@ Testing can start when the following are fulfilled:
 
  Testing environment is up and running
 
-1.1.3 Exit criteria defined
+#### 1.1.3 Exit criteria defined
 
 Testing can end when:
 
@@ -78,7 +78,7 @@ No Critical issues have Open status
 
 Update tests are 100% passed (update tests will not generate other new issues that impact the application)
 
-1.1.4 Test scope
+#### 1.1.4 Test scope
 
 Tests in scope:
 
@@ -103,7 +103,7 @@ No QA support for mobile applications developed.
 Automation testing is beyond scope.
 
 
-1.1.5 Risks detected
+#### 1.1.5 Risks detected
 
 Risks and mitigation:
 
@@ -126,18 +126,18 @@ Impact: Available testing time is reduced. Possible delay of the release.
 Action: Test on local environment if possible.
 
 
-1.1.6 Evaluating entry criteria
+#### 1.1.6 Evaluating entry criteria
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-1.2 Test Monitoring and Control
+### 1.2 Test Monitoring and Control
 
 ![test metrics](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/823a3dcf-1e2b-4316-b005-7e810ed525fa)
 
 There are 7 stories and 15 tests executed. 4 bugs were found during the process.
 
 
-1.3 Test Analysis
+### 1.3 Test Analysis
 
 The testing process will be executed based on the application requirements. 
 
@@ -149,7 +149,7 @@ The following test conditions were found:
 
 
 
-1.4 Test Design
+### 1.4 Test Design
 
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. Here are some examples of test cases .
 
@@ -162,13 +162,13 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 ![test case 4](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/2914630a-1a85-4c0a-bf30-4c4dcf8dd588)
 
 
-1.5 Test Implementation
+### 1.5 Test Implementation
 
 The following elements are needed to be ready before the test execution phase begins:
 
 The web site functionalities to be tested are ready .
 
-1.6. Test Execution
+### 1.6. Test Execution
 
 Test cases are executed on the created test Cycle summary: "Project one"
 
@@ -186,7 +186,7 @@ Bugs have been created based on the failed tests. The complete bug reports can b
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 
-1.7 Test Completion 
+### 1.7 Test Completion 
 
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
