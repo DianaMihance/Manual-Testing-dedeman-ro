@@ -52,45 +52,37 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Testing can start when the following are fulfilled:
  
-&nbsp;&nbsp;&nbsp;&nbsp;Implementation of the feature is done and reviewed
+* &nbsp;&nbsp;&nbsp;&nbsp;Implementation of the feature is done and reviewed
 
-&nbsp;&nbsp;&nbsp;&nbsp;A pull request is opened on the ticket
+* &nbsp;&nbsp;&nbsp;&nbsp;QA has all required info to test
  
-&nbsp;&nbsp;&nbsp;&nbsp;QA has all required info to test
- 
-&nbsp;&nbsp;&nbsp;&nbsp;Stable Pull request environment was created
- 
-&nbsp;&nbsp;&nbsp;&nbsp;Smoke test passed 
-
-&nbsp;&nbsp;&nbsp;&nbsp;Testing environment is up and running
-
 #### &nbsp;&nbsp;&nbsp;&nbsp;1.1.3 Exit criteria defined
 
 &nbsp;&nbsp;&nbsp;&nbsp;Testing can end when:
 
-&nbsp;&nbsp;&nbsp;&nbsp;All acceptance criteria are met for a story
+* &nbsp;&nbsp;&nbsp;&nbsp;All acceptance criteria are met for a story
 
-&nbsp;&nbsp;&nbsp;&nbsp;Defect is fixed and the change did not break something else
+* &nbsp;&nbsp;&nbsp;&nbsp;Defect is fixed and the change did not break something else
 
-&nbsp;&nbsp;&nbsp;&nbsp;90% of tests are passed
+* &nbsp;&nbsp;&nbsp;&nbsp;90% of tests are passed
 
-&nbsp;&nbsp;&nbsp;&nbsp;No Critical issues have Open status
+* &nbsp;&nbsp;&nbsp;&nbsp;No Critical issues have Open status
 
-&nbsp;&nbsp;&nbsp;&nbsp;Update tests are 100% passed (update tests will not generate other new issues that impact the application)
+* &nbsp;&nbsp;&nbsp;&nbsp;Update tests are 100% passed (update tests will not generate other new issues that impact the application)
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;1.1.4 Test scope
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Tests in scope:
 
-&nbsp;&nbsp;&nbsp;&nbsp;The tests are ment to determine the good function of some parts of the application .
+* &nbsp;&nbsp;&nbsp;&nbsp;The tests are ment to determine the good function of some parts of the application .
 
-&nbsp;&nbsp;&nbsp;&nbsp;Functional testing verifies that software features work as intended.
+* &nbsp;&nbsp;&nbsp;&nbsp;Functional testing verifies that software features work as intended.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Functionalities in scope: uppdating the password, log in form, sorting the product list, add a product to favorite list, placing an order.
+* &nbsp;&nbsp;&nbsp;&nbsp;Functionalities in scope: uppdating the password, log in form, sorting the product list, add a product to favorite list, placing an order.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Functional testing, exploratory testing, positive and negative testing were used in this project.
+* &nbsp;&nbsp;&nbsp;&nbsp;Functional testing, exploratory testing, positive and negative testing were used in this project.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Only Web applications will be tested.
+* &nbsp;&nbsp;&nbsp;&nbsp;Only Web applications will be tested.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Levels of testing:
 
@@ -98,9 +90,11 @@
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Tests not in scope:
 
-&nbsp;&nbsp;&nbsp;&nbsp;Non-functional testing like stress, performance is beyond scope of this project.
-&nbsp;&nbsp;&nbsp;&nbsp;No QA support for mobile applications developed.
-&nbsp;&nbsp;&nbsp;&nbsp;Automation testing is beyond scope.
+* &nbsp;&nbsp;&nbsp;&nbsp;Non-functional testing like stress, performance is beyond scope of this project.
+
+* &nbsp;&nbsp;&nbsp;&nbsp;No QA support for mobile applications developed.
+
+* &nbsp;&nbsp;&nbsp;&nbsp;Automation testing is beyond scope.
 
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;1.1.5 Risks detected
@@ -166,13 +160,19 @@ Action: Test on local environment if possible.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The following elements are needed to be ready before the test execution phase begins:
 
-&nbsp;&nbsp;&nbsp;&nbsp;The web site functionalities to be tested are ready .
+* &nbsp;&nbsp;&nbsp;&nbsp;The web site functionalities to be tested are ready .
+
+* &nbsp;&nbsp;&nbsp;&nbsp;Smoke test passed 
+
+* &nbsp;&nbsp;&nbsp;&nbsp;Testing environment is up and running
 
 ### 1.6. Test Execution
 
 &nbsp;&nbsp;&nbsp;&nbsp;Test cases are executed on the created test Cycle summary: "Project one"
 
-&nbsp;&nbsp;&nbsp;&nbsp;Bugs have been created based on the failed tests. The complete bug reports can be found here: 
+&nbsp;&nbsp;&nbsp;&nbsp;Bugs have been created based on the failed tests. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;The complete bug reports can be found here: 
 
 ![bug 1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/38a6d0f1-41c8-4ac2-b7b4-25a2ded4eb7b)
 
