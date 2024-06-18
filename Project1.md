@@ -145,7 +145,11 @@ Action: Test on local environment if possible.
 
 ### 1.4 Test Design
 
-&nbsp;&nbsp;&nbsp;&nbsp;Functional test cases were created in Zephyr Squad based on the analysis of the specifications. Here are some examples of test cases .
+&nbsp;&nbsp;&nbsp;&nbsp;Functional test cases were created in Zephyr Squad based on the analysis of the specifications.
+
+Here you can find all test cases from Jira <https://github.com/DianaMihance/manual_testing_jira_dedeman/blob/main/test_cases_Jira.md>
+
+Here are some examples of test cases .
 
 ![test case 1](https://github.com/DianaMihance/manual_testing_jira_dedeman/assets/167775231/d921f967-ca96-41b8-b7d5-8395b7e6847b)
 
@@ -158,13 +162,21 @@ Action: Test on local environment if possible.
 
 ### 1.5 Test Implementation
 
+&nbsp;&nbsp;&nbsp;&nbsp;We have to make sure we have everything we need for beginning the execution phase.
+
 &nbsp;&nbsp;&nbsp;&nbsp;The following elements are needed to be ready before the test execution phase begins:
+
+* &nbsp;&nbsp;&nbsp;&nbsp; All necessary test cases are created. 
 
 * &nbsp;&nbsp;&nbsp;&nbsp;The web site functionalities to be tested are ready .
 
 * &nbsp;&nbsp;&nbsp;&nbsp;Smoke test passed 
 
 * &nbsp;&nbsp;&nbsp;&nbsp;Testing environment is up and running
+
+* &nbsp;&nbsp;&nbsp;&nbsp;The tests are prioritised based on the impact for the business and risks.
+
+* &nbsp;&nbsp;&nbsp;&nbsp;All the documentation is ready.
 
 ### 1.6. Test Execution
 
